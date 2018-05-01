@@ -39,9 +39,9 @@ export class InFrontOfYou extends React.Component {
 
 export class ButcherShop extends React.Component {
   // your code here
-  // const products = [<li key="0">{BUTCHER_PRODUCTS[0]}</li>, <li key="1">{BUTCHER_PRODUCTS[1]}</li>, <li key="2">{BUTCHER_PRODUCTS[2]}</li>, <li key="3">{BUTCHER_PRODUCTS[3]}</li>]
-  const products = BUTCHER_PRODUCTS.map((p, idx) => (<li key={idx}>{p}</li>));
   render () {
+    const products = [<li key="0">{BUTCHER_PRODUCTS[0]}</li>, <li key="1">{BUTCHER_PRODUCTS[1]}</li>, <li key="2">{BUTCHER_PRODUCTS[2]}</li>, <li key="3">{BUTCHER_PRODUCTS[3]}</li>]
+    // const products = BUTCHER_PRODUCTS.map((p, idx) => (<li key={idx}>{p}</li>));
     return (
       <div class="butcher-shop">
         <p>Hello! We have the following products for sale today:</p>
